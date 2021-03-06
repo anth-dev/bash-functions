@@ -37,7 +37,7 @@ spotify_sleep ()
   sleep 5m
   amixer -D pulse sset Master 10%-
   sleep 5m
-  amixer -D pulse sset Master 10% 
+  amixer -D pulse sset Master 10%- 
   dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Pause
 }
 ```
